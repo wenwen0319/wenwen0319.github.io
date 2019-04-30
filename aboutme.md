@@ -4,7 +4,7 @@ title: About me
 subtitle: About me
 ---
 
-My name is Wenwen. I obtained my Bachelor degree at Shanghai Jiaotong University(2014-2018). And I am now a Master student at Northeastern University, concentrating on Deep Learning and Computer Vision. 
+My name is Wenwen. I obtained my Bachelor degree at Shanghai Jiao Tong University(2014-2018). And I am now a Master student at Northeastern University, concentrating on Deep Learning and Computer Vision. 
 
 ### my education
 

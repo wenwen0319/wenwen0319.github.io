@@ -25,6 +25,8 @@ description: Noob!
 navbar-links:
   About Me: "aboutme"
   Publications: "publications"
+  Projects: "projects"
+    - Evil Twin: "eviltwin"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
