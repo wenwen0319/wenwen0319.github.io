@@ -44,6 +44,7 @@ Pros:
 * Easy to apply
 * Fast
 * Low cost
+
 Cons:
 * So easy to hack 
 
@@ -67,6 +68,7 @@ Pros:
 * Easy to apply
 * Fast
 * Low cost
+
 Cons:
 * Needs a sever and all the information, which is only available for a large network and a large company.
 
