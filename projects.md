@@ -10,4 +10,7 @@ I have done several projects about Iot, Wireless Network, Security, Machine Lear
 
 We proposed several methods to defend Evil Twin.
 
+# Project 2 [DTU with Bluetooth](https://wenwen0319.github.io/dtu/)
+
+Traditional DTUs do not have bluetooth. To make it easier to use, we implement a bluetooth part in it.
 
