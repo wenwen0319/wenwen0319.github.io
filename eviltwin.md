@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 1 Evil Twin
+title: Evil Twin
 subtitle: Three Ways To Detect Evil Twin In A Real World.
 ---
 
