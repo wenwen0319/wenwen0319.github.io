@@ -32,7 +32,7 @@ I used Gephi and javascript to visualize the relationship between different topi
 
 To further study the relationship between these topics, I use gSpan algorithm to find the most frequent subgraphs in the network. To make the algorithm faster, I divide the whole picture to several small parts.
 
-The results show there are three most frequent modes.
+The result shows there are three most frequent modes.
 
 1. One hot node(green node) has strong connection with several not-hot nodes(nodes which are not green).
 ![avatar](/img/acenet_fre_1.png)
@@ -58,4 +58,9 @@ By analyzing the relationships of these topics and authors, we think:
 
 * Although the current discipline integration is a trend, at least there is little topic integration in the CS field. Most of the CS field is a hot field but most hot topics will not have a strong connection with other hot topics. This is because they are not developed topics. However, in the future, when many topics are developed, there will be a discipline fusion in CS.
 
+# Acknowledge
 
+> [Acemap](https://www.acemap.info/)
+> [Implementation of gSpan](https://github.com/betterenvi/gSpan)
+> [Visulization Gephi] (https://gephi.org/)
+> [Visulization Plotly] (https://plot.ly/)
