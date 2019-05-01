@@ -64,6 +64,6 @@ By analyzing the relationships of these topics and authors, we think:
 
 > [Implementation of gSpan](https://github.com/betterenvi/gSpan)
 
-> [Visulization Gephi] (https://gephi.org/)
+> [Visulization Gephi](https://gephi.org/)
 
-> [Visulization Plotly] (https://plot.ly/)
+> [Visulization Plotly](https://plot.ly/)
