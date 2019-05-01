@@ -61,6 +61,9 @@ By analyzing the relationships of these topics and authors, we think:
 # Acknowledge
 
 > [Acemap](https://www.acemap.info/)
+
 > [Implementation of gSpan](https://github.com/betterenvi/gSpan)
+
 > [Visulization Gephi] (https://gephi.org/)
+
 > [Visulization Plotly] (https://plot.ly/)
