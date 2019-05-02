@@ -8,5 +8,7 @@ My name is Wenwen. I obtained my Bachelor degree at Shanghai Jiao Tong Universit
 
 ### my education
 
-- Sep 2014 to Jun 2018 Shanghai Jiao Tong University, Bachelor of Enigneering
 - Sep 2018 to now Northeastern University, Master of Science in Electrical & Computer Engineering
+- Sep 2014 to Jun 2018 Shanghai Jiao Tong University, Bachelor of Enigneering
+
+[Resume.pdf](http://wenwen0319.github.io/Resume.pdf).
