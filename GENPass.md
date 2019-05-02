@@ -95,7 +95,7 @@ Given the classifier's output $c_{i}(i=1...N)$ where $N$ is the amount of datase
 If $C$ is too large, the lately generated unit will be discarded because it is probably a special case in one dataset. Otherwise, the unit will be accepted. In our model, we chose 0.2 as the threshold of $C$ after performing several experiments. If the threshold is too small, the model will be much more time-consuming and the output will contain more duplicates.
 
 ![avatar](/img/GENPass/fig3.png)
-**Detailed diagram of the classifier and the discriminator.** Assume that the new generated password is 'abcdef1@34'. It will be combined with 4 previous generated passwords as the input of the classifier. If the output of the classifier is [0.4,0.6], the discriminator will accept and print the password, because C is less than 0.2. If the output of the classifier is [0.3,0.7], all the units composing `abcdef1@34' will be discarded.
+**Detailed diagram of the classifier and the discriminator.** Assume that the new generated password is 'abcdef1@34'. It will be combined with 4 previous generated passwords as the input of the classifier. If the output of the classifier is [0.4,0.6], the discriminator will accept and print the password, because C is less than 0.2. If the output of the classifier is [0.3,0.7], all the units composing 'abcdef1@34' will be discarded.
 
 ## GENPass with Probability
 
