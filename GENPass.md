@@ -20,7 +20,7 @@ In our work, we try to generate a “general" password list from several dataset
 
 ## What Is General
 
-Assume a training set T containing m leaked password datasets <span>\(D_{1}\), \(D_{2}\), \(D_{3},\cdots, D_{m}\)</span>. Model \(G_{t}\) is obtained by training T. Model \(G_{i}\) is obtained by training \(D_{i}\) (i \(\in\) \[1, m\]). If Model \(G_{t}\) can guess dataset \(D_{k}\) (\(D_{k}\) \(\notin\) <span>\(D_{1}\), \(D_{2}\), \(D_{3}\), \(\cdots\), \(D_{m}\)</span>) better than \(G_{i}\) (i \(\in\) \[1, m\]), model \(G_{t}\) is believed to be general.
+Assume a training set T containing m leaked password datasets {$D_{1}$, $D_{2}$, $D_{3},\cdots, D_{m}$}. Model $G_{t}$ is obtained by training T. Model $G_{i}$ is obtained by training $D_{i}$ (i $\in$ [1, m]). If Model $G_{t}$ can guess dataset $D_{k}$ ($D_{k}$ $\notin$ {$D_{1}$, $D_{2}$, $D_{3}$, $\cdots$, $D_{m}$}) better than $G_{i}$ (i $\in$ [1, m]), model $G_{t}$ is believed to be general.
 
 # Our model
 ## PCFG+LSTM(PL)
