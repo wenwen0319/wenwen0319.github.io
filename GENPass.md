@@ -27,13 +27,12 @@ A password is first encoded into a sequence of units. Each unit has a char and a
 
 A table is generated when we preprocess the passwords. We calculate the number of each string’s occurrence. For example, we calculated all the L8 strings in Myspace, and found that “password" occurred 58 times, “iloveyou" occurred 56 times and so on.
 
-|         Data Type          |    Symbols     |
-| :------------------------: | :------------: |
-|          Letters           |                |
-| ABCDEFGHIJKLMNOPQRSTUVWXYZ |                |
-|           Digits           |   0123456789   |
-|       End character        | \(\setminus\)n |
-|       Special Chars        |   otherwise    |
+|         Data Type          |          Symbols           |
+| :------------------------: | :------------------------: |
+|          Letters           | ABCDEFGHIJKLMNOPQRSTUVWXYZ |
+|           Digits           |          0123456789        |
+|       End character        |             \n             |
+|       Special Chars        |         otherwise          |
 
 <span id="table1" label="table1">\[table1\]</span>Different string types
 
