@@ -3,7 +3,7 @@ layout: page
 title: Password Analysis and Dictionary Attack
 subtitle: We analyzed several leaked password datasets and used machine learning to create a more general password dictionary.
 ---
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Abstract
 
 The password has become today's dominant method of authentication. While brute-force attack methods such as HashCat and John the Ripper have proven unpractical, the research then switches to password guessing. State-of-the-art approaches such as the Markov Model and probabilistic context-free grammar (PCFG) are all based on statistical probability. These approaches require a large amount of calculation, which is time-consuming. Neural networks have proven more accurate and practical in password guessing than traditional methods. However, a raw neural network model is not qualified for cross-site attacks because each dataset has its own features. Our work aims to generalize those leaked passwords and improves the performance in cross-site attacks.
