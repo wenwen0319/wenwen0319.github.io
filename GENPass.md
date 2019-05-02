@@ -20,12 +20,12 @@ In our work, we try to generate a “general" password list from several dataset
 
 # Our model
 ## PCFG+LSTM(PL)
-A regular password guessing method called PCFG divides a password by units. For instance, `password123' can be divided into two units `L8' and `D3'. This produces high accuracy because the passwords are always meaningful and are set with template structures (e.g., iloveyou520, password123, abc123456). Meanwhile, neural networks can detect the relationship between characters that PCFG cannot. Thus, we combine the two methods to obtain a more effective one.
+A regular password guessing method called PCFG divides a password by units. For instance, 'password123' can be divided into two units 'L8' and 'D3'. This produces high accuracy because the passwords are always meaningful and are set with template structures (e.g., iloveyou520, password123, abc123456). Meanwhile, neural networks can detect the relationship between characters that PCFG cannot. Thus, we combine the two methods to obtain a more effective one.
 ### Preprocessing
 
-A password is first encoded into a sequence of units. Each unit has a char and a number. A char stands for a sequence of letters (L), digits (D), special chars (S), or an end character (‘\(\setminus\)n’), and the number stands for the length of the sequence (e.g., $Password123 will be denoted as S1 L8 N3 ‘\(\setminus\)n’). Detailed rules are shown in Table [\[table1\]](#table1).
+A password is first encoded into a sequence of units. Each unit has a char and a number. A char stands for a sequence of letters (L), digits (D), special chars (S), or an end character ('\(\setminus\)n'), and the number stands for the length of the sequence (e.g., $Password123 will be denoted as S1 L8 N3 '\(\setminus\)n'). Detailed rules are shown in Table [\[table1\]](#table1).
 
-A table is generated when we preprocess the passwords. We calculate the number of each string’s occurrence. For example, we calculated all the L8 strings in Myspace, and found that “password" occurred 58 times, “iloveyou" occurred 56 times and so on.
+A table is generated when we preprocess the passwords. We calculate the number of each string’s occurrence. For example, we calculated all the L8 strings in Myspace, and found that 'password' occurred 58 times, 'iloveyou' occurred 56 times and so on.
 
 |         Data Type          |          Symbols           |
 | :------------------------: | :------------------------: |
