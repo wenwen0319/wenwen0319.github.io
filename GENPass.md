@@ -18,12 +18,16 @@ On the other hand, many real passwords have been exposed but each dataset is not
 
 In our work, we try to generate a “general" password list from several datasets to improve the performance of password guessing in cross-site tests. So we first define what is “general".
 
+## What Is General
+
+Assume a training set T containing m leaked password datasets <span>\(D_{1}\), \(D_{2}\), \(D_{3},\cdots, D_{m}\)</span>. Model \(G_{t}\) is obtained by training T. Model \(G_{i}\) is obtained by training \(D_{i}\) (i \(\in\) \[1, m\]). If Model \(G_{t}\) can guess dataset \(D_{k}\) (\(D_{k}\) \(\notin\) <span>\(D_{1}\), \(D_{2}\), \(D_{3}\), \(\cdots\), \(D_{m}\)</span>) better than \(G_{i}\) (i \(\in\) \[1, m\]), model \(G_{t}\) is believed to be general.
+
 # Our model
 ## PCFG+LSTM(PL)
 A regular password guessing method called PCFG divides a password by units. For instance, 'password123' can be divided into two units 'L8' and 'D3'. This produces high accuracy because the passwords are always meaningful and are set with template structures (e.g., iloveyou520, password123, abc123456). Meanwhile, neural networks can detect the relationship between characters that PCFG cannot. Thus, we combine the two methods to obtain a more effective one.
 ### Preprocessing
 
-A password is first encoded into a sequence of units. Each unit has a char and a number. A char stands for a sequence of letters (L), digits (D), special chars (S), or an end character ('\(\setminus\)n'), and the number stands for the length of the sequence (e.g., $Password123 will be denoted as S1 L8 N3 '\(\setminus\)n'). Detailed rules are shown in Table [\[table1\]](#table1).
+A password is first encoded into a sequence of units. Each unit has a char and a number. A char stands for a sequence of letters (L), digits (D), special chars (S), or an end character ('\n'), and the number stands for the length of the sequence (e.g., $Password123 will be denoted as S1 L8 N3 '\n'). Detailed rules are shown in Table [\[table1\]](#table1).
 
 A table is generated when we preprocess the passwords. We calculate the number of each string’s occurrence. For example, we calculated all the L8 strings in Myspace, and found that 'password' occurred 58 times, 'iloveyou' occurred 56 times and so on.
 
