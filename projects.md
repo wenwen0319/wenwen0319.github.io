@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Projects
-subtitle: Projects
+subtitle: I have done several projects about Iot, Wireless Network, Network Security, Machine Learning and Computer Vision.
 ---
-
-I have done several projects about Iot, Wireless Network, Security, Machine Learning and Computer Vision.
 
 # [Password Analysis and Dictionary Attack](https://wenwen0319.github.io/GENPass/)
 
