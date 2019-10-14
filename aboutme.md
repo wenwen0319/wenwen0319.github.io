@@ -4,7 +4,7 @@ title: About me
 subtitle: About me
 ---
 
-My name is Yunyu Liu. I obtained my Bachelor degree at Shanghai Jiao Tong University(2014-2018). And I am now a master student at Northeastern University, concentrating on Deep Learning and Computer Vision. 
+My name is Yunyu Liu. I obtained my Bachelor degree at Shanghai Jiao Tong University(2014-2018). And I am now a master student at Northeastern University, concentrating on Deep Learning and Computer Vision. To be specific, I am interested in multi-view learning, human motion and semi-supervised learning.
 
 ### my education
 
