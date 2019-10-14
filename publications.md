@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Publications
-subtitle: Publications
 ---
 
 - [FG] Yue Bai, Lichen Wang, Yunyu Liu, Yu Yin, Yun Fu, “Long-Short Dual-Side AutoEncoder for Human Motion Segmentation,” 15th IEEE International Conference On Automatic Face And Gesture Recognition, FG 2020 (Under Review)
