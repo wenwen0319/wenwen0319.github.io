@@ -4,7 +4,7 @@ title: About me
 subtitle: Here is some basic information about me.
 ---
 
-My name is Yunyu Liu. I obtained my Bachelor degree at Shanghai Jiao Tong University(2014-2018). And I am now a master student at Northeastern University, concentrating on Deep Learning and Computer Vision. To be specific, I focused on multi-view learning, human motion and semi-supervised learning. Recently, I'm interesting in Graph Neural Network, e.g., Graph Convolutional Network(GCN), GraphSage, Structure2Vec and so on.
+My name is Yunyu Liu. I obtained my Bachelor degree at Shanghai Jiao Tong University(2014-2018). And I am now a master student at Northeastern University, concentrating on Deep Learning and Computer Vision. To be specific, I focused on multi-view learning, human motion and semi-supervised learning. Recently, I'm interested in Graph Neural Network, e.g., Graph Convolutional Network(GCN), GraphSage, Structure2Vec and so on.
 
 ### my education
 
