@@ -18,7 +18,7 @@ Then, the weighted directed graph is processed by the D-core algorithm. D-core a
 
 The picture 1 shows the network of 2012. In this picture, the distance between nodes means the relationship between them. The size of a node means the activity of this topic(the sum of indegree and outdegree).
 
-![avatar](/img/acenet_2012.png)
+![avatar](/projects/acenet/acenet_2012.png)
 
 Green nodes are hot topics, because the indegree and outdegree of these nodes is very high. This means these nodes are often large, indicating that these topics/fields are developing rapidly. These fields also brought great help to other fields. For example, in the 2012 Artificial Neural Network, SVM, Machine Learning and other fields, these fields have a strong relationship with each other and developed rapidly.
 
@@ -35,13 +35,13 @@ To further study the relationship between these topics, I use gSpan algorithm to
 The result shows there are three most frequent modes.
 
 1. One hot node(green node) has strong connection with several not-hot nodes(nodes which are not green).
-![avatar](/img/acenet_fre_1.png)
+![avatar](/projects/acenet/acenet_fre_1.png)
 
 2. Several not-hot nodes(usually 4) have a relatively strong connection with each other.
-![avatar](/img/acenet_fre_2.png)
+![avatar](/projects/acenet/acenet_fre_2.png)
 
 3. Two hot nodes and several not-hot nodes around them.
-![avatar](/img/acenet_fre_3.png)
+![avatar](/projects/acenet/acenet_fre_3.png)
 
 # Conclusion
 
@@ -54,7 +54,7 @@ By analyzing the relationships of these topics and authors, we think:
 * The probability of a combination of multiple not-hot topics is high. The reason is that there are always a few not-hot topics that are relevant, such as several not-hot topics derived from the same hot field, or several well-developed areas that are gradually merging and forming new research topics. At the same time, the research level of such topics is relatively complete, and it is easier for scholars to master multiple topics at the same time. This also shows that there is a greater possibility of strong links between these not-hot topics.
 
 * In order to better demonstrate the research, we visualize the findings of this paper, as shown below. This picture shows the relationship between the topics of 2012. Among them, the orange points are hot topics(green ones in the previous picture), the green points are new-born topics(red ones in the previous picture), the blue points are mature topics, the black points are isolated topics, the hot topic is on the same plane, and the not-hot topic is on the same plane. The size of the node is similar to the previous picture, indicating the popularity of the topic. In addition to the relationship between different topics, the size of points also includes the development of the same topic in the previous year and next year. In order to show the relationship between the topics, we divide it into small pieces. The red side of the figure shows the relationship between two hot topics, the yellow side indicates the relationship between hot topics and not-hot topics, and the green side indicates the relationship between not-hot topics. From the figure we can see that the red edges of each part are sparse, while the yellow edges of the corresponding areas are denser, while the green edges are very dense. This confirms that the relationship among hot topics is relatively weak, but the relationship with not-hot topics is strong. The relationship between not-hot topics is far stronger than the strength of the relationship between hot topics. We analyze the network constructed by only the unpopular topics (that is, the network constructed by the green node and the green edge), and find that the number of edges whose starting point or ending point is a mature topic occupies 47.42% of the total number of edges. 
-![avatar](/img/acenet_conclusion.png)
+![avatar](/projects/acenet/acenet_conclusion.png)
 
 * Although the current discipline integration is a trend, at least there is little topic integration in the CS field. Most of the CS field is a hot field but most hot topics will not have a strong connection with other hot topics. This is because they are not developed topics. However, in the future, when many topics are developed, there will be a discipline fusion in CS.
 
