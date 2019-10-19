@@ -4,11 +4,11 @@ title: Projects
 subtitle: I have done several projects about Machine Learning, Computer Vision, Iot, Wireless Network and Network Security.
 ---
 
-# [Semi-supervised Multi-view Learning](https://wenwen0319.github.io/Projects/Semi_supervised_Multi_view/main/)
+# [Semi-supervised Multi-view Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_view/main/)
 
 We try to combine semi-supervised learning and multi-view learning together. This work is still ongoing.
 
-# [Semi-supervised Multi-label Learning](https://wenwen0319.github.io/Projects/Semi_supervised_Multi_label/Semi_supervised_Multi_label/)
+# [Semi-supervised Multi-label Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_label/Semi_supervised_Multi_label/)
 
 We proposed a method which jointly explores the inter-instance feature distribution and intra-instance label relation simultaneously. We also applied co-training with pseudo labels to further improve learning performance. A relation network is further proposed to explore the cross-label relation knowledge. 
 
