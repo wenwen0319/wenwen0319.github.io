@@ -16,7 +16,7 @@ The framework of our approach is shown in Figure 1. Sliding windows are first em
 
 LSTM outputs the representations of FFT features and a classifier is trained to predict the final label. The classifier C(.) is a fully connected network with softmax activation. We choose the last hidden layer of LSTM as the input of C(.). The loss function is as follow.
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= L = \|Y-C(G(F(X))\|_F^2" style="border:none;">
+<center><img src="http://chart.googleapis.com/chart?cht=tx&chl= L = \|Y-C(G(F(X))\|_F^2" style="border:none;"></center>
 
 where Y is the instance label, X is the original data in time domain. F(.) is the feature extractor using sliding window and FFT. G(.) is LSTM network. C(.) is a full connected network.
 
