@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Yunyu's Website
+title: Yunyu Liu
 
 # Short description of your site
 description: I am currently a MS student in Northeastern University.
@@ -69,7 +69,8 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "wenwen0319@hotmail.com"
+  email: "lyywenwen@gmail.com"
+  email: "liu.yuny@husky.neu.edu"
 #   facebook: daattali
   github: wenwen0319
 #   twitter: daattali
