@@ -15,7 +15,7 @@ Electromyography (EMG) is an electrodiagnostic technique to evaluate the electri
 The framework of our approach is shown in Figure 1. Sliding windows are first employed to extract EMG signal from each channel. Differently, we utilize Fast Fourier Transform (FFT) instead of RMS as the initial feature extraction approach. This strategy has two advantages. Firstly, FFT decomposes the time series EMG data in frequency domain which automatically separates EMG with high/low noise. Thus, denoising procedures can be omitted. Secondly, FFT provides more comprehensive signal information in each sliding window. After obtaining FFT feature, we utilize the amplitude of each frequency as feature vector, and concatenate the four channels (i.e., left/right forearm/shank) together and input them into a Long Short-Term Memory (LSTM) networks.
 
 LSTM outputs the representations of FFT features and a classifier is trained to predict the final label. The classifier $C(\cdot)$ is a fully connected network with softmax activation. We choose the last hidden layer of LSTM as the input of $C(\cdot)$. The loss function is as follow.
-$$L = \|Y-C(G(F(X))\|_\textup{F}^2$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= L = \|Y-C(G(F(X))\|_\textup{F}^2" style="border:none;">
 where $Y$ is the instance label, $X$ is the original data in time domain. $F(\cdot)$ is the feature extractor using sliding window and FFT. $G(\cdot)$ is LSTM network. $C(\cdot)$ is a full connected network.
 
 ## The result
