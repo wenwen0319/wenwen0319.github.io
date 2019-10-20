@@ -23,7 +23,7 @@ description: I am currently a MS student in Northeastern University.
 
 # List of links in the navigation bar
 navbar-links:
-  CV/Resume: "/Resume.pdf"
+  CV/Resume: "http://wenwen0319.github.io/Resume.pdf"
   Publications: "publications"
   Projects: "projects"
 
