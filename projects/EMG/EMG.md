@@ -14,11 +14,7 @@ The framework of our approach is shown in Figure 1. Sliding windows are first em
 
 Mathematically, the updating principles can be written as:
 <img src="http://www.forkosh.com/mathtex.cgi? $$\textup{i}_{t}=\sigma(U_{i}X_{t}+W_{i}h_{t-1})$$">
-$$\textup{f}_{t}=\sigma(U_{f}X_{t}+W_{f}h_{t-1})$$
-$$\textup{o}_{t}=\sigma(U_{o}X_{t}+W_{o}h_{t-1})$$
-$$\tilde{c}_{t}=\tanh(U_{c}X_{t}+W_{c}h_{t-1})$$
-$$\textup{c}_{t}=\textup{f}_{t}\cdot\textup{c}_{t-1}+\textup{i}_{t}\cdot\tilde{c}_{t}$$
-$$h_{t}=\tanh(\textup{c}_{t})\cdot o_{t}$$
+
 
 where $X_{t}$ is the $t$-th input FFT vector, $\textup{i}_{t}$ is the $t$-th input gate activation vector, $h_{t}$ is the $t$-th hidden state, $\textup{f}_{t}$ is the $t$-th forget gate activation vector, $o_{t}$ is the $t$-th output gate activation vector, $c_{t}$ is the $t$th cell state vector, and $\tilde{c}_{t}$ is the $t$-th new memory content. 
 LSTM outputs the representations of FFT features and a classifier is trained to predict the final label. The classifier $C(\cdot)$ is a fully connected network with softmax activation. We choose the last hidden layer of LSTM as the input of $C(\cdot)$. The loss function is as follow.
