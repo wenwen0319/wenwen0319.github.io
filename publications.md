@@ -3,8 +3,6 @@ layout: page
 title: Publications
 ---
 
-- [**CVPR 2020**] **Yunyu Liu**, Lichen Wang, Yue Bai, Can Qin, Zhengming Ding, Yun Fu, “Semi-Supervised Multi-View Learning via Cross-View Adaptation,” 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (Under Review)
-- [**FG 2020**] Yue Bai, Lichen Wang, **Yunyu Liu**, Yu Yin, Yun Fu, “Long-Short Dual-Side AutoEncoder for Human Motion Segmentation,” 15th IEEE International Conference On Automatic Face And Gesture Recognition (Under Review)
 - [**AAAI 2020**] Lichen Wang, **Yunyu Liu**, Can Qin, Gan Sun, Yun Fu, “Dual Relation Semi-supervised Multi-label Learning,” Thirty-Fourth AAAI Conference on Artificial Intelligence [pdf]
 - [**ICCV 2019**] Lichen Wang, Zhengming Ding, Zhiqiang Tao, **Yunyu Liu**, Yun Fu, “Generative Multi-View Human Action Recognition,” International Conference on Computer Vision(Oral) [pdf](https://github.com/wanglichenxj/Generative-Multi-View-Human-Action-Recognition/blob/master/representation/ICCV19_MulitView_ActionRecognition.pdf)
 - [**TMM 2019**] Zhiyang Xia, Ping Yi, **Yunyu Liu**, Bo Jiang, Tiantian Xie, Wei Wang, “GENPass: A Multi-Source Deep Learning Model For Password Guessing,” IEEE Transactions on Multimedia [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8832180)
