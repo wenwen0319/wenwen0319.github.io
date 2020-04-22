@@ -17,7 +17,7 @@ baseurl: ""
 title: Yunyu Liu
 
 # Short description of your site
-description: I am currently a MS student in Northeastern University.
+description: I just finished my Master degree at Northeastern University. I will continue my Ph.D. degree at Purdue University.
 
 # --- Navigation bar options --- #
 
@@ -70,7 +70,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "liu.yuny@husky.neu.edu"
+  email: "wenwen0319@hotmail.com"
 #   facebook: daattali
   github: wenwen0319
 #   twitter: daattali

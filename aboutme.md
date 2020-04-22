@@ -8,7 +8,7 @@ My name is Yunyu Liu. I am now a master student at Northeastern University. Befo
 
 ### My Education
 
-- Sep 2018 to now         Northeastern University, Master of Science in Electrical & Computer Engineering
+- Sep 2018 to May 2020    Northeastern University, Master of Science in Electrical & Computer Engineering
 - Sep 2014 to Jun 2018    Shanghai Jiao Tong University, Bachelor of Enigneering, Bachelor of Economics
 
 
