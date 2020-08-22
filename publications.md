@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
+- [**ICDM 2020**] Yue Bai, Lichen Wang, **Yunyu Liu**, Yu Yin, Yun Fu, “Dual-Side Auto-Encoder for High-Dimensional Time Series Segmentation,” 20th IEEE International Conference on Data Mining
 - [**ECCV 2020**] **Yunyu Liu**, Lichen Wang, Yue Bai, Can Qin, Zhengming Ding, Yun Fu, “Generative View-Correlation Adaptation for Semi-Supervised Multi-View Learning,” 16th European Conference On
 Computer Vision [pdf][code]
 - [**AAAI 2020**] Lichen Wang, **Yunyu Liu**, Can Qin, Gan Sun, Yun Fu, “Dual Relation Semi-supervised Multi-label Learning,” Thirty-Fourth AAAI Conference on Artificial Intelligence [pdf](https://github.com/wanglichenxj/Dual-Relation-Semi-supervised-Multi-label-Learning/blob/master/presentation/AAAI20_MultiLabel.pdf) [code](https://github.com/wanglichenxj/Dual-Relation-Semi-supervised-Multi-label-Learning)
