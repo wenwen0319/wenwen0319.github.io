@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-FOr more detials, you can check my [google scholar](https://scholar.google.com/citations?user=KyeVZ8QAAAAJ&hl=EN).
+For more detials, you can check my [google scholar](https://scholar.google.com/citations?user=KyeVZ8QAAAAJ&hl=EN).
 
 - [**TIP 2021**] Lichen Wang, **Yunyu Liu**, Hang Di, Can Qin, Gan Sun, Yun Fu, "Semi-supervised Dual Relation Learning for Multi-label Classification," IEEE Transactions on Image Processing 
 - [**ICDM 2021**] Lichen Wang, Bo Zong, **Yunyu Liu**, Can Qin, Wei Cheng, Wenchao Yu, Xuchao Zhang, Haifeng Chen, Yun Fu, "Aspect-based Sentiment Classification via Reinforcement Learning," 2021 IEEE International Conference on Data Mining
