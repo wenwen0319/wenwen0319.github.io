@@ -5,6 +5,7 @@ title: Publications
 
 For more detials, you can check my [google scholar](https://scholar.google.com/citations?user=KyeVZ8QAAAAJ&hl=EN).
 
+- [**WWW 2021**] **Yunyu Liu**, Jianzhu Ma, Pan Li, "Neural Predicting Higher-order Patterns in Temporal Networks," 2022 ACM Web Conference 
 - [**TIP 2021**] Lichen Wang, **Yunyu Liu**, Hang Di, Can Qin, Gan Sun, Yun Fu, "Semi-supervised Dual Relation Learning for Multi-label Classification," IEEE Transactions on Image Processing 
 - [**ICDM 2021**] Lichen Wang, Bo Zong, **Yunyu Liu**, Can Qin, Wei Cheng, Wenchao Yu, Xuchao Zhang, Haifeng Chen, Yun Fu, "Aspect-based Sentiment Classification via Reinforcement Learning," 2021 IEEE International Conference on Data Mining
 - [**ICLR 2021**] Yanbang Wang, Yen-Yu Chang, **Yunyu Liu**, Jure Leskovec, Pan Li, “Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks,” The International Conference on Learning Representations [pdf](https://arxiv.org/pdf/2101.05974.pdf) [code](https://github.com/snap-stanford/CAW)
