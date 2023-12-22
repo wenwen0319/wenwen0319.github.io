@@ -1,12 +1,28 @@
 ---
 layout: page
 title: Projects
-subtitle: I have done several projects about Machine Learning, Computer Vision, Iot, Wireless Network and Network Security.
+subtitle: I have done several projects about Computer Graphics, Graph Neural Network, Machine Learning, Computer Vision, Iot, Wireless Network and Network Security.
 ---
 
-# [Semi-supervised Multi-view Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_view/main/)
+# [Terrain Generation](https://wenwen0319.github.io/projects/Terrain/terrain/)
 
-We try to combine semi-supervised learning and multi-view learning together. This work is still ongoing.
+Generate Terrain using a single 128*128 image.
+
+# [Equivariant Hypergraph Diffusion Neural Operators](https://github.com/Graph-COM/ED-HNN)
+
+In this work, we are inspired by hypergraph diffusion algorithms and design a novel HNN architecture that holds provable expressiveness while keeping efficiency. 
+
+# [Neural Higher-order Pattern (Motif) Prediction in Temporal Networks](https://github.com/Graph-COM/Neural_Higher-order_Pattern_Prediction)
+
+Dynamic systems that consist of a set of interacting elements can be abstracted as temporal networks. Recently, higher-order patterns that involve multiple interacting nodes have been found crucial to indicate domain-specific laws of different temporal networks. Here, we propose the first model, named HIT, for higher-order pattern prediction in temporal hypergraphs. Particularly, we focus on predicting three types of common but important interaction patterns involving three interacting elements in temporal networks, which could be extended to even higher-order patterns. 
+
+# [Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks](https://snap.stanford.edu/caw/)
+
+We introduce Causal Anonymous Walks (CAW) for inductive representation learning in temporal networks. CAWs are extracted by temporal random walks and work as automatic retrieval of temporal network motifs to represent network dynamics, while avoiding the time-consuming selection and counting of those motifs. 
+
+<!-- # [Semi-supervised Multi-view Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_view/main/)
+
+We try to combine semi-supervised learning and multi-view learning together. This work is still ongoing. -->
 
 # [Semi-supervised Multi-label Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_label/Semi_supervised_Multi_label/)
 
