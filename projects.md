@@ -20,9 +20,9 @@ Dynamic systems that consist of a set of interacting elements can be abstracted 
 
 We introduce Causal Anonymous Walks (CAW) for inductive representation learning in temporal networks. CAWs are extracted by temporal random walks and work as automatic retrieval of temporal network motifs to represent network dynamics, while avoiding the time-consuming selection and counting of those motifs. 
 
-<!-- # [Semi-supervised Multi-view Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_view/main/)
+# [Generative-View-Correlation-Adaptation-for-Semi-Supervised-Multi-View-Learning](https://github.com/wenwen0319/GVCA)
 
-We try to combine semi-supervised learning and multi-view learning together. This work is still ongoing. -->
+Multi-view learning (MVL) explores the data extracted from multiple resources. It assumes that the complementary information between different views could be revealed to further improve the learning performance. There are two challenges. First, it is difficult to effectively combine the different view data while still fully preserve the view-specific information. Second, multi-view datasets are usually small, which means the model can be easily overfitted. To address the challenges, we propose a novel View-Correlation Adaptation (VCA) framework in semisupervised fashion. A semi-supervised data augmentation me-thod is designed to generate extra features and labels based on both labeled and unlabeled samples. In addition, a cross-view adversarial training strategy is proposed to explore the structural information from one view and help the representation learning of the other view. Moreover, an effective and simple fusion network is proposed for the late fusion stage. In our model, all networks are jointly trained in an end-to-end fashion. Extensive experiments demonstrate that our approach is effective and stable compared with other state-of-the-art methods
 
 # [Semi-supervised Multi-label Learning](https://wenwen0319.github.io/projects/Semi_supervised_Multi_label/Semi_supervised_Multi_label/)
 

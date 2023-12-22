@@ -5,7 +5,7 @@ subtitle: Use GNN, GAN to train a model use a single 128*128 image.
 ---
 
 ## Rendering Result 
-![avatar](/projects/Terrain/GC_rendering.pdf)
+![avatar](/projects/Terrain/rendering_result_1.png)
 
 
 
