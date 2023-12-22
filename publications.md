@@ -5,6 +5,8 @@ title: Publications
 
 For more detials, you can check my [google scholar](https://scholar.google.com/citations?user=KyeVZ8QAAAAJ&hl=EN).
 
+- [**ICLR 2023**] Peihao Wang, Shenghao Yang, **Yunyu Liu**, Zhangyang Wang, Pan Li, “Equivariant hypergraph diffusion neural operators," International Conference on Learning Representations 
+- [**TIP 2022**] Yue Bai, Lichen Wang, Yunyu Liu, Yu Yin, Hang Di, Yun Fu, “Human motion segmentation via velocity-sensitive dual-side auto-encoder, " IEEE Transactions on Image Processing 
 - [**WWW 2022**] **Yunyu Liu**, Jianzhu Ma, Pan Li, "Neural Predicting Higher-order Patterns in Temporal Networks," 2022 ACM Web Conference 
 - [**TIP 2021**] Lichen Wang, **Yunyu Liu**, Hang Di, Can Qin, Gan Sun, Yun Fu, "Semi-supervised Dual Relation Learning for Multi-label Classification," IEEE Transactions on Image Processing 
 - [**ICDM 2021**] Lichen Wang, Bo Zong, **Yunyu Liu**, Can Qin, Wei Cheng, Wenchao Yu, Xuchao Zhang, Haifeng Chen, Yun Fu, "Aspect-based Sentiment Classification via Reinforcement Learning," 2021 IEEE International Conference on Data Mining
